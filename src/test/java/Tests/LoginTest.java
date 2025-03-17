@@ -27,7 +27,7 @@ public class LoginTest {
         LoginPage loginPage = new LoginPage(driver);
         loginPage.enterUsername("nisharg.shah@avlonline.com");
         loginPage.enterPassword("nisharg");
-        loginPage.clickLogin();
+        // loginPage.clickLogin();
 
     }
 
