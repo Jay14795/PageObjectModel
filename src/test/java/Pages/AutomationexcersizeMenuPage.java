@@ -28,8 +28,4 @@ public class AutomationexcersizeMenuPage {
         C.click();
     }
 
-    public void clickLogin() {
-        WebElement login = driver.findElement(loginButtonLocator);
-        login.click();
-    }
 }

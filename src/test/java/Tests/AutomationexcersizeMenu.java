@@ -59,7 +59,7 @@ public class AutomationexcersizeMenu {
         driver.manage().window().maximize();
     }
 
-    @Test
+    @Test(priority = 1)
     public void productMenuClick() throws InterruptedException {
         try {
             // Log steps in the report
@@ -89,7 +89,7 @@ public class AutomationexcersizeMenu {
         }
     }
 
-    @Test
+    @Test(priority = 2)
     public void CartmenuClick() throws InterruptedException {
         try {
             // Log steps in the report
