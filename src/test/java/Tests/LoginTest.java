@@ -29,7 +29,7 @@ public class LoginTest {
         loginPage.enterUsername(Email);
         Thread.sleep(2000);
         loginPage.enterPassword(Password);
-        Thread.sleep(2000);
+        Thread.sleep(3000);
 
         // loginPage.clickLogin();
     }
